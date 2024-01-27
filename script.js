@@ -13,4 +13,4 @@ let coche2 = {
 }
 
 
-console.log(coche2());
+console.log(coche2.coche());

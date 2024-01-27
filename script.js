@@ -1,16 +1,8 @@
-let coche1 = {
-    color: 'verde',
-    marca: 'BMW',
-    caballos: '150'
-}
-let coche2 = {
-    colores: ['naranja','azul','gris','negro'],
-    marca: 'audi',
-    caballos: '160',
-    coche: function(){
-        return "Vendi un coche"
-    }
+
+mostrar = function(){
+    document.getElementById("seleccionar").innerHTML = Date()
 }
 
-
-console.log(coche2.coche());
+const texto1 = "hola mi gente.En este videotutorial .Vamos a ver como separar";
+const resultado = texto1.split('.');
+console.log(texto1.split('.'));
